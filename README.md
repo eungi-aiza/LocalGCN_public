@@ -12,9 +12,9 @@ cd code
 python main.py --help
 ```
 
-Before running LocalGCN and AnchorEmbRec, make sure to put the LightGCN-pretrained model in the embed folder.
-Refer to the example files inside for its file name format:
-{pretrained_model_name}-{dataset_name}-{number_of_layers}-{embedding_size}.pt
+Before running LocalGCN and AnchorEmbRec, make sure to put the pretrained model in the embed folder.
+Refer to the example files inside for the format:
+{pretrained_model_name}-{dataset_name}.pt
 
 1. LightGCN
 
