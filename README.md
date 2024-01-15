@@ -29,6 +29,7 @@ python main.py --config_file ../config/lgcn_ml1m.yaml
 
 IMPGCN-based model using LOCA sub-community generation method. 
 > Fan Liu, Zhiyong Cheng*, Lei Zhu, Zan Gao and Liqiang Nie*. Interest-aware Message-Passing GCN for Recommendation, [Paper in arXiv](https://arxiv.org/abs/2102.10044). (WWW '21) (“*”= Corresponding author)
+
 > Minjin Choi, Yoonki Jeong, Joonseok Lee, Jongwuk Lee. LOCA: Local Collaborative Autoencoders,  [Paper in arXiv](https://arxiv.org/abs/2103.16103) (WSDM '21)
 
 ```bash
