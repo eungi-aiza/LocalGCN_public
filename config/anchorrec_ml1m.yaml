@@ -1,0 +1,5 @@
+groups: 64
+dataset: ml-1m
+model: anchorrec
+groups: 64
+topks: [1, 5, 10, 20]
