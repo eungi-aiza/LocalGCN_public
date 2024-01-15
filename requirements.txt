@@ -1,20 +1,13 @@
 # This file may be used to create an environment using:
-# platform: linux-64
-# conda create -n <env_name> python==3.7.0
+# conda create -n <env_name> python=3.7
 # conda activate <env_name>
-# conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch
+# conda install torch-spline-conv torch-cluster texttable networkx metis tqdm numpy pandas scipy scikit-learn pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch -c anaconda -c conda-forge -c ostrokach-forge
 
 # pip install -r <this file>
-ipykernel==6.15.0
-numpy==1.21.6  #1.22.0 
-pandas==1.1.5 # 1.3.5 # 2.0.3 
-protobuf==3.19.6
-pyyaml==6.0.1
-scikit-learn==0.23.2
-scipy==1.5.4
-tensorboard==2.9.1
-tqdm==4.48.2
-zipp==3.15.0 # 3.16.2
-cppimport==22.8.2
-tensorboardx==1.8
-chardet==5.2.0
+torch-geometric==2.3.1
+torch-sparse==0.6.17
+torch-scatter==2.1.1
+ipykernel
+tensorboardX==2.6.2.2
+tensorboard==2.11.2
+pyyaml
